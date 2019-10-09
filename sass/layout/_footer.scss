@@ -1,0 +1,77 @@
+.footer{
+    background-color: $color-grey-light-1;
+    padding: 5rem 0 5rem 0;
+    font-size: 2.4rem;
+    margin-top: -10vh;
+
+    @include respond(tab-port){
+        padding: 8rem 0;
+        
+    }
+    
+    &__logo-box{
+        text-align: center;
+        margin-bottom: 8rem;
+
+        @include respond(tab-port){
+            margin-bottom: 4rem;
+        }
+
+    }
+
+    &__logo{
+        width: 15rem;
+        height: auto;
+    }
+
+    &__navigation{
+       
+        padding-top: 10rem;
+        display: inline-block;
+        width:100%;
+        text-align: center;
+
+        @include respond(tab-port){
+            width: 100%;
+            text-align: center;
+            
+        }
+
+    }
+
+    &__list{
+        
+        list-style: none;
+        
+    }
+
+
+    &__item{
+        
+        display: inline-block;
+        transition: transform .3s;
+
+        &:not(:last-child){
+            margin-right: 1.5rem;
+
+        }
+    }
+
+    &__link{
+        &:link,
+        &:visited{
+            color: $color-primary;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+
+        &:hover,
+        &:active{
+            color: $color-primary;
+            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            transform: rotate(5deg) scale(1.3)
+        }
+
+    }
+}
