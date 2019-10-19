@@ -304,7 +304,7 @@ body {
     font-weight: 100;
     color: #fff;
     text-transform: uppercase; }
-  @media (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     .card {
       height: auto;
       border-radius: 3px;
@@ -328,13 +328,8 @@ body {
         transform: translate(0);
         width: 100%;
         padding: 7rem 4rem 4rem 4rem; }
-      .card__price-box {
-        margin-bottom: 3rem; }
-      .card__price-only {
-        font-size: 1.4rem;
-        text-transform: uppercase; }
-      .card__price-value {
-        font-size: 4rem; } }
+      .card__box {
+        margin-bottom: 3rem; } }
 
 .composition {
   position: relative; }
