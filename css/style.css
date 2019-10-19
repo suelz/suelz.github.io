@@ -314,6 +314,8 @@ body {
         box-shadow: none; }
         .card__side--back {
           transform: rotateY(0);
+          -webkit-background-clip: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+          background-clip: polygon(0 0, 100% 0, 100% 85%, 0 100%);
           clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%); }
       .card:hover .card__side--front {
         transform: rotateY(0); }
@@ -477,6 +479,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   @media (max-width: 37.5em) {
     .header {
+      background-clip: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
       -webkit-background-clip: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
   .header__logo-box {

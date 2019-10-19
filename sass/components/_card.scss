@@ -168,6 +168,8 @@
 
             &--back {
                 transform: rotateY(0);
+                -webkit-background-clip: polygon(0 0, 100% 0,100% 85%, 0 100%);
+                background-clip: polygon(0 0, 100% 0,100% 85%, 0 100%);
                 clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%)
 
             }
@@ -181,6 +183,7 @@
                     
     &__details{
         padding: 1rem 3rem;
+        
     }
 
     &__cta{
