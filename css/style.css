@@ -235,6 +235,12 @@ body {
         background-image: linear-gradient(to right bottom, #004e92, #000428); }
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #4ca1af, #c4e0e5); }
+      .card__side--back-4 {
+        background-image: linear-gradient(to right bottom, #ffd89b, #19547b); }
+      .card__side--back-5 {
+        background-image: linear-gradient(to right bottom, #004e92, #000428); }
+      .card__side--back-6 {
+        background-image: linear-gradient(to right bottom, #4ca1af, #c4e0e5); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -251,8 +257,14 @@ body {
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, #ffd89b, #19547b), url(../img/pokemon.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #004e92, #000428), url(../img/me.png); }
+      background-image: linear-gradient(to right bottom, #004e92, #000428), url(../img/tasks.jpg); }
     .card__picture--3 {
+      background-image: linear-gradient(to right bottom, #4ca1af, #c4e0e5), url(../img/urso.jpg); }
+    .card__picture--4 {
+      background-image: linear-gradient(to right bottom, #ffd89b, #19547b), url(../img/sky.jpg); }
+    .card__picture--5 {
+      background-image: linear-gradient(to right bottom, #004e92, #000428), url(../img/me.png); }
+    .card__picture--6 {
       background-image: linear-gradient(to right bottom, #4ca1af, #c4e0e5), url(../img/space.gif); }
   .card__heading {
     font-size: 2.8rem;
@@ -273,6 +285,12 @@ body {
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(0, 78, 146, 0.85), rgba(0, 4, 40, 0.85)); }
     .card__heading-span--3 {
+      background-image: linear-gradient(to right bottom, rgba(76, 161, 175, 0.85), rgba(196, 224, 229, 0.85)); }
+    .card__heading-span--4 {
+      background-image: linear-gradient(to right bottom, rgba(255, 216, 155, 0.85), rgba(25, 84, 123, 0.85)); }
+    .card__heading-span--5 {
+      background-image: linear-gradient(to right bottom, rgba(0, 78, 146, 0.85), rgba(0, 4, 40, 0.85)); }
+    .card__heading-span--6 {
       background-image: linear-gradient(to right bottom, rgba(76, 161, 175, 0.85), rgba(196, 224, 229, 0.85)); }
   .card__details {
     padding: 3rem; }
